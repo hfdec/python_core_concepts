@@ -4,8 +4,9 @@ print("2. Listar restaurante")
 print("3. Ativar restaurante")
 print("4. Sair\n")
 
-op_escolhida = input("Escolha uma opção: \n")
-print(f"você escolheu a opção: {op_escolhida}!")
+op_escolhida = int(input("Escolha uma opção: \n"))
+# op_escolhida = int(op_escolhida) é valido tmb
+print(f"você escolheu a opção: {op_escolhida}!\n")
 
 if op_escolhida == 1:
     print("Cadastrar restaurante")
